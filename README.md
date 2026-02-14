@@ -5,8 +5,11 @@
 - CKA 자격증 취득
 - 쿠버네티스 실무 역량 확보
 
-## 진행 현황
+## 진행 현황 
 | 주차 | 주제 | 상태 |
 |------|------|------|
-| [1주차](https://github.com/llama-w/docker-labs/tree/main/week1) | Docker 심화 - 이미지 빌드/레이어 | 🔄 진행중 |
+| [1주차](https://github.com/llama-w/docker-labs/tree/main/week1) | Docker 심화 - 이미지 빌드/레이어 | ✅ 완료 |
 | 2주차 | docker-compose 멀티 컨테이너 | ⏳ 대기 |
+| 3주차 | K8s 입문 | ⏳ 대기 |
+
+(🔄 진행중,⏳ 대기,✅ 완료)
