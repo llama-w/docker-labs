@@ -24,4 +24,4 @@ docker images | grep springapp
 ```
 
 ## 상세 학습 기록
-[Notion 링크](여기에_나중에_추가)
+[Notion 링크](https://www.notion.so/Docker-30718afea17280c49b91dfb6633b9c0b?source=copy_link)
