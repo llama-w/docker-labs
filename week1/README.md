@@ -14,6 +14,8 @@
 - Docker: 27.x
 - 테스트용 더미 파일: `app/app.jar` (echo "fake springboot app" > app/app.jar)
 - 실제 Spring Boot jar 아님 - 레이어/캐시 동작 원리 확인 목적
+- 캐시 실험용: `dd if=/dev/urandom of=app/app.jar bs=1M count=5` (5MB 랜덤 파일)
+- 이유: echo 더미는 크기 차이 없어 캐시 미감지
 
 ## 파일 설명
 | 파일 | 설명 |
@@ -34,7 +36,7 @@
 | 시나리오 | v1 | v2 |
 |----------|----|----|
 | 코드 변경 없이 재빌드 | 1.3초 | 1.2초 |
-| app.jar 수정 후 재빌드 | 300초 ← apt-get 재실행 | 1.3초 ← apt-get 캐시 유지 |
+| app.jar 수정 후 재빌드 | 296.9초 ← apt-get 재실행 | 1.5초 ← apt-get 캐시 유지 |
 
 ### 3. 이미지 크기
 | 버전 | 크기 | 비고 |
