@@ -1,0 +1,9 @@
+FROM eclipse-temurin:17-jdk AS builder
+WORKDIR /build
+RUN echo "built" > /build/app.jar
+
+FROM eclipse-temurin:17-jre AS runner
+WORKDIR /app
+COPY --from=builder /build/app.jar app.jar
+EXPOSE 8080
+CMD ["java", "-jar", "app.jar"]
