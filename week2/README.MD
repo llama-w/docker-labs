@@ -5,7 +5,7 @@
 - 멀티 컨테이너 간 네트워크 통신 원리
 - 볼륨을 이용한 데이터 영속성 확보
 - healthcheck + depends_on 조합으로 안정적인 기동 순서 제어
-상세 내용 정리 - [notion-link](https://www.notion.so/Docker-30718afea172800c92b6e409a1ce1158?source=copy_link)
+**상세 내용 정리** - [notion-link](https://www.notion.so/Docker-30718afea172800c92b6e409a1ce1158?source=copy_link)
 
 ## 테스트 환경
 - OS: Ubuntu 22.04 (VM)
