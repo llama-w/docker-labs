@@ -88,8 +88,3 @@ docker compose exec db psql -U myuser -d myapp -c "SELECT * FROM users;"
   2 | K8s Learner    | 2025-xx-xx xx:xx:xx
 (2 rows)
 ```
-
-## 다음 주차 예고
-- 3주차: 실제 Spring Boot 앱 Dockerize + docker-compose로 배포
-- 멀티스테이지 빌드 실전 적용 (1주차 이론 → 실제 jar 빌드)
-- `.env` 파일로 환경변수 분리 관리
