@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client
+spec:
+  containers:
+    - name: client
+      image: curlimages/curl:latest
+      command: ["sleep", "3600"]  # 1시간 유지, kubectl exec으로 들어가서 테스트

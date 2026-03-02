@@ -10,6 +10,7 @@
 |---------------------------------------------------------------|------|------|
 | [1주차](https://github.com/llama-w/docker-labs/tree/main/week1) | Docker 심화 - 이미지 빌드/레이어 | ✅ 완료 |
 | [2주차](https://github.com/llama-w/docker-labs/tree/main/week2) | docker-compose 멀티 컨테이너 | ✅ 완료 |
-| 3주차                                                           | K8s 입문 | ⏳ 대기 |
+| [3주차](https://github.com/llama-w/docker-labs/tree/main/week3) | K8s Service - ClusterIP / NodePort | ✅ 완료 |
+| 4주차                                                           | K8s ConfigMap / Secret - 설정 관리 | ⏳ 대기 |
 
 (🔄 진행중,⏳ 대기,✅ 완료)
